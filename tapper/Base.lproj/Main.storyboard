@@ -34,6 +34,9 @@
                                     <constraint firstAttribute="height" constant="120" id="m1W-Vd-4si"/>
                                 </constraints>
                                 <state key="normal" image="playbtn"/>
+                                <connections>
+                                    <action selector="onPlayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3jK-S7-1Ry"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="15x-LI-2FZ" userLabel="TextBox">
                                 <rect key="frame" x="176" y="350" width="249" height="30"/>
@@ -51,6 +54,9 @@
                                     <constraint firstAttribute="width" constant="172" id="FvB-Yg-ZyJ"/>
                                 </constraints>
                                 <state key="normal" image="coin"/>
+                                <connections>
+                                    <action selector="onCoinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z2N-gn-L8B"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsa-Ut-41y" userLabel="Label">
                                 <rect key="frame" x="178" y="261" width="244" height="46"/>
